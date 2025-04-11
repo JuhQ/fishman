@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fish-Bunny Racer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <!-- Game Title Screen -->
+      <div id="title-screen">
+        <h1>Fish-Bunny Racer</h1>
+        <p>
+          Based on the surreal image of a fish-headed bunny creature on a
+          motorcycle
+        </p>
+        <button id="start-button">Start Game</button>
+        <div class="instructions">
+          <h2>How to Play:</h2>
+          <ul>
+            <li>Move left/right: Arrow Keys</li>
+            <li>Collect bubblegum: +15 points</li>
+            <li>Avoid obstacles</li>
+            <li>Use Spacebar to activate bubble boost (requires bubblegum)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Main Game Canvas -->
+      <canvas id="game-canvas"></canvas>
+
+      <!-- Game UI Overlay -->
+      <div id="game-ui">
+        <div id="score">Score: 0</div>
+        <div id="lives">Lives: 3</div>
+        <div id="bubblegum">Bubblegum: 0</div>
+      </div>
+
+      <!-- Game Over Screen -->
+      <div id="game-over">
+        <h1>Game Over!</h1>
+        <p>Your final score: <span id="final-score">0</span></p>
+        <button id="restart-button">Play Again</button>
+      </div>
+    </div>
+
+    <script src="js/game.js"></script>
+  </body>
+</html>
