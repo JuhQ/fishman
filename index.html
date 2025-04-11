@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fishman</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #faebca;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .image-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .image {
+        position: absolute;
+        border-radius: 16px;
+        clip-path: inset(0% round 16px / 16px);
+        -webkit-clip-path: inset(0% round 16px / 16px);
+      }
+
+      #img1 {
+        animation: pulse1 8s infinite ease-in-out;
+      }
+
+      #img2 {
+        animation: pulse2 8s infinite ease-in-out;
+      }
+
+      @keyframes pulse1 {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes pulse2 {
+        0%,
+        100% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="img1.png" alt="Image 1" id="img1" class="image" />
+      <img src="img2.png" alt="Image 2" id="img2" class="image" />
+    </div>
+  </body>
+</html>
