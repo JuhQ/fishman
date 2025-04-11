@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="400" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#48c6ef;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#6f86d6;stop-opacity:1" />
+  </linearGradient>
+
+  <rect width="1600" height="400" fill="url(#skyGradient)" />
+
+  <!-- Sun -->
+  <circle cx="200" cy="80" r="60" fill="#ffeb3b" />
+  <circle cx="200" cy="80" r="70" fill="#ffeb3b" opacity="0.3" />
+
+  <!-- Mountains in the background -->
+  <path d="M0,250 L100,150 L200,220 L300,100 L400,180 L500,120 L600,200 L700,150 L800,190 L900,100 L1000,180 L1100,150 L1200,220 L1300,140 L1400,200 L1500,120 L1600,220 L1600,400 L0,400 Z" fill="#6c5ce7" opacity="0.8" />
+
+  <!-- Mountains in the middle -->
+  <path d="M0,280 L120,200 L240,260 L360,180 L480,250 L600,190 L720,240 L840,180 L960,230 L1080,170 L1200,270 L1320,180 L1440,240 L1600,180 L1600,400 L0,400 Z" fill="#9b59b6" opacity="0.7" />
+
+  <!-- Hills in the foreground -->
+  <path d="M0,320 L150,280 L300,310 L450,270 L600,300 L750,260 L900,310 L1050,270 L1200,320 L1350,270 L1500,300 L1600,280 L1600,400 L0,400 Z" fill="#8e44ad" opacity="0.6" />
+
+  <!-- Clouds -->
+  <g fill="#fff" opacity="0.8">
+    <ellipse cx="200" cy="100" rx="50" ry="20" />
+    <ellipse cx="500" cy="70" rx="60" ry="25" />
+    <ellipse cx="800" cy="120" rx="55" ry="22" />
+    <ellipse cx="1100" cy="90" rx="65" ry="28" />
+    <ellipse cx="1400" cy="110" rx="70" ry="30" />
+  </g>
+</svg>

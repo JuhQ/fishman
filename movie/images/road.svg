@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="200" viewBox="0 0 1600 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Road base -->
+  <rect width="1600" height="200" fill="#333" />
+
+  <!-- Road stripes -->
+  <rect x="0" y="95" width="100" height="10" fill="#fff" />
+  <rect x="150" y="95" width="100" height="10" fill="#fff" />
+  <rect x="300" y="95" width="100" height="10" fill="#fff" />
+  <rect x="450" y="95" width="100" height="10" fill="#fff" />
+  <rect x="600" y="95" width="100" height="10" fill="#fff" />
+  <rect x="750" y="95" width="100" height="10" fill="#fff" />
+  <rect x="900" y="95" width="100" height="10" fill="#fff" />
+  <rect x="1050" y="95" width="100" height="10" fill="#fff" />
+  <rect x="1200" y="95" width="100" height="10" fill="#fff" />
+  <rect x="1350" y="95" width="100" height="10" fill="#fff" />
+  <rect x="1500" y="95" width="100" height="10" fill="#fff" />
+
+  <!-- Road side gravel -->
+  <rect width="1600" height="20" y="0" fill="#777" />
+  <rect width="1600" height="20" y="180" fill="#777" />
+
+  <!-- Road texture -->
+  <rect width="1600" height="200" fill="#000" opacity="0.1" />
+</svg>

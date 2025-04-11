@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Motorcycle -->
+  <g id="motorcycle">
+    <ellipse cx="150" cy="250" rx="120" ry="20" fill="#333" opacity="0.3"/>
+    <ellipse cx="80" cy="240" rx="40" ry="40" fill="#333"/>
+    <ellipse cx="80" cy="240" rx="30" ry="30" fill="#666"/>
+    <ellipse cx="80" cy="240" rx="15" ry="15" fill="#999"/>
+    <ellipse cx="220" cy="240" rx="40" ry="40" fill="#333"/>
+    <ellipse cx="220" cy="240" rx="30" ry="30" fill="#666"/>
+    <ellipse cx="220" cy="240" rx="15" ry="15" fill="#999"/>
+    <path d="M80 240 L220 240 L170 190 L110 190 Z" fill="#222"/>
+    <rect x="170" y="180" width="10" height="20" rx="5" fill="#444"/>
+    <rect x="90" y="170" width="10" height="30" rx="5" fill="#444"/>
+    <ellipse cx="95" cy="170" rx="15" ry="5" fill="#ccc"/>
+  </g>
+
+  <!-- BunnyDuck Character -->
+  <g id="character">
+    <!-- Body -->
+    <ellipse cx="150" cy="150" rx="40" ry="50" fill="#e67e22"/>
+
+    <!-- Duck Head -->
+    <circle cx="150" cy="90" r="30" fill="#81ecec"/>
+
+    <!-- Duck Bill -->
+    <ellipse cx="165" cy="100" rx="20" ry="10" fill="#f1c40f"/>
+
+    <!-- Sunglasses -->
+    <rect x="125" y="85" width="50" height="15" rx="5" fill="#333"/>
+
+    <!-- Rabbit Ears -->
+    <path d="M135 70 Q125 40 135 20 Q145 40 135 70" fill="#e67e22"/>
+    <path d="M165 70 Q175 40 165 20 Q155 40 165 70" fill="#e67e22"/>
+
+    <!-- Arms -->
+    <path d="M120 130 L90 170" stroke="#e67e22" stroke-width="15" stroke-linecap="round"/>
+    <path d="M180 130 L200 170" stroke="#e67e22" stroke-width="15" stroke-linecap="round"/>
+
+    <!-- Hands -->
+    <circle cx="90" cy="170" r="8" fill="#e67e22"/>
+    <circle cx="200" cy="170" r="8" fill="#e67e22"/>
+
+    <!-- Legs -->
+    <path d="M135 190 L120 230" stroke="#f1c40f" stroke-width="10" stroke-linecap="round"/>
+    <path d="M165 190 L180 230" stroke="#f1c40f" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Feet -->
+    <ellipse cx="120" cy="235" rx="10" ry="5" fill="#f1c40f"/>
+    <ellipse cx="180" cy="235" rx="10" ry="5" fill="#f1c40f"/>
+  </g>
+</svg>
